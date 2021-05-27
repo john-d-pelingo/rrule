@@ -1,6 +1,8 @@
 rrule.js
 ========
 
+## This fork exists to address the issue of circular dependency.
+
 **Library for working with recurrence rules for calendar dates.**
 
 [![NPM version][npm-image]][npm-url]
@@ -217,7 +219,7 @@ For more examples see
 
 Optionally, it also supports use of the `TZID` parameter in the
 [RFC](https://tools.ietf.org/html/rfc5545#section-3.2.19)
-when the [Luxon](https://github.com/moment/luxon) library is provided. The 
+when the [Luxon](https://github.com/moment/luxon) library is provided. The
 [specification](https://moment.github.io/luxon/docs/manual/zones.html#specifying-a-zone)
 and [support matrix](https://moment.github.io/luxon/docs/manual/matrix.html) for Luxon apply.
 
